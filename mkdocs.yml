@@ -1,0 +1,23 @@
+site_name: WCraaS
+theme: alabaster
+copyright: WCraaS Author & Contributors
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+plugins:
+  - minify:
+      minify_html: true
+  - search
+markdown_extensions:
+  - toc:
+      permalink: "¶"
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - fenced_code
+  - smarty
+extra:
+  include_toc: yes
+  extra_nav_links:
+    Fork me on GitHub: https://github.com/WCraaS
+
